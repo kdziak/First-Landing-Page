@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    background: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+
+}
+
+
+
+.navLinks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+    font-size: 18px;
+}
+
