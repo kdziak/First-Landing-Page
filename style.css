@@ -79,6 +79,67 @@ img.logo {
     list-style-type: none;
     justify-content: center;
     gap: 15px;
-    text-align: center;
+    text-align: center; 
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quotename {
+    display: flex;
+    font-weight: bolder;
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: column;
     
+    justify-content: center;
+    align-content: center;
+}
+
+.actionbox {
+    display: flex;
+    flex: 1;
+    background: #3882F6;
+    padding: 50px;
+    margin: 100px;
+    font-size: 18px;
+    color:#E5E7EB;
+    border-radius: 10px;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.signUpTwo{
+    border-radius: 10px;
+    padding: 5px 20px;
+    background: #3882F6;
+    color:#E5E7EB;
+    font-weight: bolder;
+    border-color: #E5E7EB;
+    border: 2px solid;
+    flex: auto;
+    max-width: 300px;
+}
+
+.actionheader {
+    font-weight: bolder;
+}
+
+.actiontext {
+    font-weight: 100;
 }
