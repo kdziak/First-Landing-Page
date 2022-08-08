@@ -15,41 +15,52 @@ body {
 img.logo {
     max-width: 100px;
     max-height: 100px;
+
 }
 .navLinks {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     font-size: 18px;
+    justify-content: space-between;
 }
 
-
-.herobox{
+.mainbody {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background: #1F2937;
-    color: #F9FAF8;    
-    flex-wrap: wrap;
+    padding: 10px;
 }
 
-.lefthero {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    flex-wrap: wrap;
+.mainimg {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 10px;
 }
 
-h1 {
+.textwrapper {
+    padding: 10px;
+}
+
+.herotext {
     font-size: 48px;
     font-weight: bolder;
+    color: #F9FAF8;
 }
 
-.signup{
+.subherotext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signUPOne{
     border-radius: 10px;
     padding: 5px 20px;
     background: #3882F6;
     border: none;
+    color:#E5E7EB;
+    font-weight: bolder;
 }
 
