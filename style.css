@@ -143,3 +143,12 @@ img.logo {
 .actiontext {
     font-weight: 100;
 }
+
+footer {
+    background: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 15px;
+    
+}
