@@ -2,9 +2,9 @@ body {
     margin: 0;
 }
 
-.header {
+.navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1em;
     background: #1F2937;
     font-size: 24px;
@@ -12,9 +12,10 @@ body {
     margin: 0;
 
 }
-
-
-
+img.logo {
+    max-width: 100px;
+    max-height: 100px;
+}
 .navLinks {
     list-style: none;
     margin: 0;
@@ -22,5 +23,33 @@ body {
     display: flex;
     gap: 5px;
     font-size: 18px;
+}
+
+
+.herobox{
+    display: flex;
+    justify-content: space-around;
+    background: #1F2937;
+    color: #F9FAF8;    
+    flex-wrap: wrap;
+}
+
+.lefthero {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.signup{
+    border-radius: 10px;
+    padding: 5px 20px;
+    background: #3882F6;
+    border: none;
 }
 
